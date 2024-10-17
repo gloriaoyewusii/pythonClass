@@ -1,1 +1,0 @@
-print("Hello peace, hello joy, hello hope. It's a new horizon.")
