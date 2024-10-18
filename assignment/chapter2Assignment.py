@@ -90,3 +90,33 @@ print((2.8))
 print("number\tsquare\tcube")
 print('0\t0\t0\n1\t1\t1\n2\t4\t8\n3\t9\t27\n4\t16\t64\n5\t25\t125\n\n')
 
+print((2.10))
+number1 = int(input("Enter an integer: "))
+print(number1)
+number2 = int(input("Enter an integer: "))
+print(number2)
+number3 = int(input("Enter an integer: "))
+print(number3)
+
+sum = number1 + number2 + number3
+print("Sum is:",sum)
+average = sum/3
+print("Average is: ",average)
+product = number1 * number2 * number3
+print("Product: ", product)
+
+if (number1 < number2 and number3):
+	print("smallest number is", number1)
+if (number2 < number1 and number3):
+	print("smallest number is:, number2)
+if (number3 < number1 and number3):
+	print("smallest number is:, number3)
+
+if (number1 > number 2 and number3):
+	print("largest number is", number1)
+if (number2 > number1 and number3):
+	print("largest number is:, number2)
+if (number3 > number1 and number3):
+	print("largest number is:, number3)
+
+
