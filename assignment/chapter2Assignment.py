@@ -90,6 +90,20 @@ print((2.8))
 print("number\tsquare\tcube")
 print('0\t0\t0\n1\t1\t1\n2\t4\t8\n3\t9\t27\n4\t16\t64\n5\t25\t125\n\n')
 
+print((2.9))
+print(ord('B')) 
+print(ord('C'))
+print(ord('D')) 
+print(ord('b'))
+print(ord('c')) 
+print(ord('d'))
+print(ord('0')) 
+print(ord('1'))
+print(ord('$')) 
+print(ord('*'))
+print(ord('+')) 
+print(ord(' '))
+
 print((2.10))
 number1 = int(input("Enter an integer: "))
 print(number1)
@@ -120,3 +134,64 @@ if (number3 > number1 and number2):
 	print("largest number is:", number3)
 
 
+print((2.11)
+
+number = int(input("Enter number: "))
+fifth_number = number % 10
+int_number1 = number // 10
+fourth_number = int_number1 % 10
+int_number2 = int_number1 // 10
+third_number = int_number2 % 10
+int_number3 = int_number2 // 10
+second_number = int_number3 % 10
+first_number = int_number3 // 10
+
+print("The digits are: ", end=", ", first_number, second_number, third_number, fourth_number, fifth_number, end="   ")
+
+
+print((2.12))
+principal = float(input("Original amount invested: "))
+annual_rate = float(input("Annual rate of return: "))
+numberOfYears = float(input("Number of years: "))
+rate = annual_rate/100
+
+amount_deposit = (principal) * ((1 + rate) ** numberOfYears)
+print(f"The amount on the deposit at the end of the nthth year is: {amount_deposit}")
+
+print((2.13))
+
+number1 = int(input("Enter number: "))
+number2 = int(input("Enter number: "))
+
+number = number1 ** number2
+print(number)
+
+print((2.14))
+
+users_age = int(input("Age: "))
+maximumHeartRate = 220 - users_age
+print("Maximum heart rate is: ", maximumHeartRate)
+range(50, 85)
+upperTargetHeartRate = 85/100 * maximumHeartRate
+print("Upper target heart rate: ", upperTargetHeartRate)
+lowerTargetHeartRate = 50/100 * maximumHeartRate
+print("Lower target heart rate: ", lowerTargetHeartRate)
+
+
+print((2.15))
+firstNumber = float(input("Enter number: "))
+secondNumber = float(input("Enter number: "))
+thirdNumber = float(input("Enter number: "))
+
+if firstNumber > secondNumber and thirdNumber:
+	print (firstNumber)
+if secondNumber > firstNumber and thirdNumber:
+	print(secondNumber)
+if thirdNumber > firstNumber and secondNumber:
+	print(thirdNumber)
+if firstNumber < secondNumber and thirdNumber:
+	print (firstNumber)
+if secondNumber < firstNumber and thirdNumber:
+	print (secondNumber)
+if thirdNumber < firstNumber and secondNumber:
+	print (thirdNumber)
