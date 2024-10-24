@@ -156,42 +156,10 @@ numberOfYears = float(input("Number of years: "))
 rate = annual_rate/100
 
 amount_deposit = (principal) * ((1 + rate) ** numberOfYears)
-print(f"The amount on the deposit at the end of the nthth year is: {amount_deposit}")
+print(f"Amount deposited is {amount_deposit:.2f}")
 
 print((2.13))
 
-number1 = int(input("Enter number: "))
-number2 = int(input("Enter number: "))
-
-number = number1 ** number2
-print(number)
-
-print((2.14))
-
 users_age = int(input("Age: "))
-maximumHeartRate = 220 - users_age
-print("Maximum heart rate is: ", maximumHeartRate)
-range(50, 85)
-upperTargetHeartRate = 85/100 * maximumHeartRate
-print("Upper target heart rate: ", upperTargetHeartRate)
-lowerTargetHeartRate = 50/100 * maximumHeartRate
-print("Lower target heart rate: ", lowerTargetHeartRate)
-
-
-print((2.15))
-firstNumber = float(input("Enter number: "))
-secondNumber = float(input("Enter number: "))
-thirdNumber = float(input("Enter number: "))
-
-if firstNumber > secondNumber and thirdNumber:
-	print (firstNumber)
-if secondNumber > firstNumber and thirdNumber:
-	print(secondNumber)
-if thirdNumber > firstNumber and secondNumber:
-	print(thirdNumber)
-if firstNumber < secondNumber and thirdNumber:
-	print (firstNumber)
-if secondNumber < firstNumber and thirdNumber:
-	print (secondNumber)
-if thirdNumber < firstNumber and secondNumber:
-	print (thirdNumber)
+maximumHeartRate = int(input("220 - users_age"))
+for targetHeartRate in range(50, 85)
