@@ -6,6 +6,12 @@ if first_number is greater than second_number and second_number is greater third
 if second_number is greater than first_number and first_number is greater than third_number, display the numbers in ascending order
 
 if third_number is greater than first_number and first_number is greater than second_number, display the numbers in ascending order
+
+if third_number is greater than second_number and second_number is greater than first_number, display the numbers in ascending order
+
+if first_number is greater than second_number and second_number is greater than third_number, display the numbers in ascending order
+
+
 """
 
 
