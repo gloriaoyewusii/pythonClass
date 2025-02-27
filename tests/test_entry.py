@@ -1,8 +1,15 @@
-import unittest
+from unittest import TestCase
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
+from classwork.SKsTasks.entry import Entry
 
-if __name__ == '__main__':
-    unittest.main()
+
+class TestEntry(TestCase):
+    def setUp(self):
+        self.entry = Entry(1, "new day", "it's a new morning")
+
+    def test_that_entry_has_entry_id(self):
+        self.assertEqual(1, self.entry.get_entry_id())
+    def test_that_entry_has_entry_name(self):
+        self.assertEqual("new day", self.entry.get_entry_title())
+    def test_that_entry_has_entry_description(self):
+        self.assertEqual("it's a new morning", self.entry.get_entry_body())
